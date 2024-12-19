@@ -1,0 +1,3 @@
+GET https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1 HTTP/1.1
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzZGM5NmYwZGNmNjY3ZDI3NzViNDYwMjQwY2ZjZGFmZSIsIm5iZiI6MTczNDYwNzU5Ny41MjcsInN1YiI6IjY3NjQwMmVkOGQxY2ZkYzUyMjRhNTNmNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Dby4ofjWUGsmF0tC9VQCR3BGd5YwRLUaGZUl8hkOZEE
