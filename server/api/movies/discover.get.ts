@@ -1,5 +1,3 @@
-import {ca} from "cronstrue/dist/i18n/locales/ca";
-
 export default defineEventHandler(async (event) => {
     const config = useRuntimeConfig(event)
     const {accessToken} = config
