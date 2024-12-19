@@ -2,8 +2,6 @@ export default defineEventHandler(async (event) => {
     const config = useRuntimeConfig(event)
     const {accessToken} = config
 
-    console.log(accessToken)
-
     const movies = await $fetch('https://api.themoviedb.org/3/discover/movie', {
         method: 'get',
         headers: {
