@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <NuxtLink @click="changeItemState" :to="`/item/serie-${series.id}`">
+    <NuxtLink @click="changeItemState" :to="`/item/tv-${series.id}`">
       <img class="rounded-t-lg" :src="`${imageSiteUrl}${series.poster_path}`" alt="Series Image"/>
     </NuxtLink>
     <div class="p-5">
